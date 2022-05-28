@@ -1,0 +1,1 @@
+recursive-include streamlit_custom_notification_box/frontend/build *
