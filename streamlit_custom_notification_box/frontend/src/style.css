@@ -1,0 +1,42 @@
+.notification-icon-container{
+  padding:30px;
+}
+
+.text-icon-link-close-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: #3896de 0px 4px;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 70%;
+  padding:20px;
+  padding-left: 10px;
+  font-family: cursive;
+}
+
+.material-icons{
+  color: #3896de;
+}
+
+.close-button{
+  cursor: pointer;
+  padding-left: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
