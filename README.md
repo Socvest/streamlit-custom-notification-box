@@ -15,7 +15,7 @@ pip install streamlit-custom-notification-box
 
 **Variables**
 
-- icon 
+- icon: from [here](https://fonts.google.com/icons)
 - textDisplay: Text to display
 - externalLink: External link to send users to (optional)
 - url: The url that users will be sent to
