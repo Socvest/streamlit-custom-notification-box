@@ -35,12 +35,16 @@ class NotificationBox extends StreamlitComponentBase {
           <i className="material-icons" {...style(styles['material-icons'])}>{icon}</i>
           <div className="notification-text" {...style(styles['notification-text'])}>{textDisplay}</div>
           <a className="link" href={url} {...style(styles['link'])}>{externalLink}</a>
-          <div className="close-button" onClick={removeNotification} {...style(styles['close-button'])}>x</div>
+          <div className="close-button" onClick={() => {removeNotification(); this.onClicked();}} {...style(styles['close-button'])}>x</div>
         </div>
       </div>   
 
           )
     }
+  private onClicked = (): void => {
+      Streamlit.setComponentValue("")
+    }
+  
 }
   
 export default withStreamlitConnection(NotificationBox)
