@@ -34,5 +34,5 @@ styles = {'material-icons':{'color': 'red'},
           'close-button':{'':''},
           'link':{'':''}}
 
-streamlit_custom_notification_box(icon='info', textDisplay='We are almost done with your registration...', externalLink='more info', url='#', styles=styles, key="foo")
+custom_notification_box(icon='info', textDisplay='We are almost done with your registration...', externalLink='more info', url='#', styles=styles, key="foo")
 ```
