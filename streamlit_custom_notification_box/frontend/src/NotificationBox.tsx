@@ -34,7 +34,7 @@ class NotificationBox extends StreamlitComponentBase {
         <div className="text-icon-link-close-container" {...style(styles['text-icon-link-close-container'])}>
           <i className="material-icons" {...style(styles['material-icons'])}>{icon}</i>
           <div className="notification-text" {...style(styles['notification-text'])}>{textDisplay}</div>
-          <a className="link" href={url} {...style(styles['link'])}>{externalLink}</a>
+          <a className="link" href={url} {...style(styles['link'])} target="_blank">{externalLink}</a>
           <div className="close-button" onClick={() => {removeNotification(); this.onClicked();}} {...style(styles['close-button'])}>x</div>
         </div>
       </div>   
