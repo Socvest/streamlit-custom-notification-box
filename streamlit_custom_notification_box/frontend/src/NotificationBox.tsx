@@ -30,7 +30,7 @@ class NotificationBox extends StreamlitComponentBase {
     
     return (
 
-      <div className="notification-icon-container">
+      <div className="notification-icon-container" {...style(styles['notification-icon-container'])}>
         <div className="text-icon-link-close-container" {...style(styles['text-icon-link-close-container'])}>
           <i className="material-icons" {...style(styles['material-icons'])}>{icon}</i>
           <div className="notification-text" {...style(styles['notification-text'])}>{textDisplay}</div>
